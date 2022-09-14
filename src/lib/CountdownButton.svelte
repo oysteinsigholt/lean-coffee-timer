@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 
 	export let timeout: Date | undefined | null;
 	export let href: string;
@@ -9,9 +9,9 @@
 
 	const duration = timeout ? timeout.getTime() - start.getTime() : null;
 
-	onMount(async () => {
-		let timer: NodeJS.Timeout;
+	let timer: NodeJS.Timeout;
 
+	onMount(async () => {
 		const audio = await import('$lib/audio');
 
 		if (duration) {
@@ -24,6 +24,10 @@
 		return () => {
 			clearTimeout(timer);
 		};
+	});
+
+	onDestroy(() => {
+		if (timer) clearTimeout(timer);
 	});
 </script>
 
