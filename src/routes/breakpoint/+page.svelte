@@ -9,7 +9,7 @@
 <h1 class="text-4xl font-extrabold">
 	✋ Breakpoint Vote
 	<small class="font-semibold text-gray-500">
-		{$currentDiscussionRound} of {$numDiscussionRounds}
+		{$currentDiscussionRound} of {$numDiscussionRounds - 1}
 	</small>
 </h1>
 
