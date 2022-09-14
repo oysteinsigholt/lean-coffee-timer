@@ -11,7 +11,8 @@
 <small class="font-semibold text-gray-500">{$rankDuration / 60} minutes</small>
 
 <p class="my-4 text-lg text-gray-500">
-	Rank the sticky notes by number of votes. Move the highest voted sticky note to the discussion
+	Rank the sticky notes by number of votes. Move the highest voted sticky note to the
+	<i>discussing</i>
 	column in preparation for the next phase.
 </p>
 

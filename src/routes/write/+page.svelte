@@ -15,4 +15,4 @@
 	(one topic per sticky note).
 </p>
 
-<CountdownButton {timeout} href="/lean-coffee-timer/pitch">Next: Pitch your topics</CountdownButton>
+<CountdownButton {timeout} href="/lean-coffee-timer/pitch">Next: Pitch Your Topics</CountdownButton>

@@ -16,4 +16,4 @@
 	> column.
 </p>
 
-<CountdownButton {timeout} href="/lean-coffee-timer/vote">Next: Vote for topics</CountdownButton>
+<CountdownButton {timeout} href="/lean-coffee-timer/vote">Next: Vote for Topics</CountdownButton>
