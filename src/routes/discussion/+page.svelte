@@ -20,7 +20,7 @@
 <p class="my-4 text-lg text-gray-500">Discuss your chosen topic!</p>
 
 {#if $currentDiscussionRound >= $numDiscussionRounds}
-	<CountdownButton {timeout} href="/end">Next: End of session</CountdownButton>
+	<CountdownButton {timeout} href="/lean-coffee-timer/end">Next: End of session</CountdownButton>
 {:else}
-	<CountdownButton {timeout} href="/breakpoint">Next: Breakpoint</CountdownButton>
+	<CountdownButton {timeout} href="/lean-coffee-timer/breakpoint">Next: Breakpoint</CountdownButton>
 {/if}

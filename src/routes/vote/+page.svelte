@@ -15,4 +15,4 @@
 	to discuss. You may spend multiple votes on the same topic.
 </p>
 
-<CountdownButton {timeout} href="/rank">Next: Ranking</CountdownButton>
+<CountdownButton {timeout} href="/lean-coffee-timer/rank">Next: Ranking</CountdownButton>

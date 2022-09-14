@@ -10,4 +10,4 @@
 	items from the group. When you are done, please return any unused supplies to the facilitator.
 </p>
 
-<a href="/">Back</a>
+<a href="/lean-coffee-timer">Back</a>

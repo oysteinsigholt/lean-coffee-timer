@@ -15,4 +15,4 @@
 	column in preparation for the next phase.
 </p>
 
-<CountdownButton {timeout} href="/discussion">Next: Discussion</CountdownButton>
+<CountdownButton {timeout} href="/lean-coffee-timer/discussion">Next: Discussion</CountdownButton>

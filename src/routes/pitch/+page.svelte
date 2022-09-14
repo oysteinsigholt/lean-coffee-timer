@@ -14,4 +14,4 @@
 	Introduce your topics to the group with a sentence or two per sticky note.
 </p>
 
-<CountdownButton {timeout} href="/vote">Next: Vote for topics</CountdownButton>
+<CountdownButton {timeout} href="/lean-coffee-timer/vote">Next: Vote for topics</CountdownButton>

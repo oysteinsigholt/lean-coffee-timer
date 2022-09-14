@@ -41,4 +41,4 @@
 
 <p>Total session duration: {duration / 60} minutes</p>
 
-<a href="/write">Start</a>
+<a href="/lean-coffee-timer/write">Start</a>

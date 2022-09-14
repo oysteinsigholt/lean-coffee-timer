@@ -19,4 +19,4 @@
 	Vote to continue discussing the current topic or move onto the next
 </p>
 
-<CountdownButton {timeout} href="/discussion">Next: Discussion</CountdownButton>
+<CountdownButton {timeout} href="/lean-coffee-timer/discussion">Next: Discussion</CountdownButton>
